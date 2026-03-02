@@ -1,0 +1,608 @@
+{
+  "Event_A_Amphan": {
+    "event_id": 1000667,
+    "event_name": "AMPHAN-20",
+    "country": "India, Bangladesh, Bhutan",
+    "period": "Sat, 16 May 2020 06:00:00 GMT to Wed, 20 May 2020 12:00:00 GMT",
+    "media_count": 859,
+    "corpus_words": 61152,
+    "corpus_sources": {
+      "wikipedia": {
+        "words": 4389,
+        "available": true,
+        "url": "https://en.wikipedia.org/wiki/Cyclone_Amphan"
+      },
+      "reliefweb": {
+        "reports": 20,
+        "words": 4629,
+        "available": true
+      },
+      "article_scrape": {
+        "scraped": 16,
+        "attempted": 30,
+        "failed": 10,
+        "words": 9759,
+        "available": true
+      },
+      "gdacs_media": {
+        "articles": 859,
+        "words": 42375,
+        "available": true
+      }
+    },
+    "response_delta": {
+      "event_onset": "2020-05-16 06:00:00+00:00",
+      "media_peak_date": "2020-05-20",
+      "media_peak_count": 238,
+      "delta_hours": 90.0,
+      "delta_days": 3.8,
+      "daily_article_counts": [
+        [
+          "2020-05-12",
+          10
+        ],
+        [
+          "2020-05-13",
+          24
+        ],
+        [
+          "2020-05-14",
+          22
+        ],
+        [
+          "2020-05-15",
+          32
+        ],
+        [
+          "2020-05-16",
+          14
+        ],
+        [
+          "2020-05-17",
+          7
+        ],
+        [
+          "2020-05-18",
+          49
+        ],
+        [
+          "2020-05-19",
+          83
+        ],
+        [
+          "2020-05-20",
+          238
+        ],
+        [
+          "2020-05-21",
+          191
+        ],
+        [
+          "2020-05-22",
+          132
+        ],
+        [
+          "2020-05-23",
+          42
+        ],
+        [
+          "2020-05-24",
+          15
+        ]
+      ],
+      "total_coverage_days": 13
+    },
+    "ner": {
+      "organisations": {
+        "total_mentions": 229,
+        "unique_orgs": 19,
+        "top_15": [
+          [
+            "IMD",
+            58
+          ],
+          [
+            "NDRF",
+            52
+          ],
+          [
+            "UN",
+            36
+          ],
+          [
+            "Red Crescent",
+            16
+          ],
+          [
+            "National Disaster Response Force",
+            14
+          ],
+          [
+            "CARE",
+            10
+          ],
+          [
+            "Indian Army",
+            9
+          ],
+          [
+            "United Nations",
+            6
+          ],
+          [
+            "WFP",
+            5
+          ],
+          [
+            "JTWC",
+            5
+          ],
+          [
+            "European Union",
+            4
+          ],
+          [
+            "Oxfam",
+            3
+          ],
+          [
+            "EU",
+            3
+          ],
+          [
+            "Red Cross",
+            2
+          ],
+          [
+            "FEMA",
+            2
+          ]
+        ]
+      },
+      "government_mentions": {
+        "total": 274,
+        "breakdown": {
+          "Chief Minister": 87,
+          "Government": 85,
+          "Prime Minister": 77,
+          "Ministry": 15,
+          "President": 9,
+          "National Government": 1
+        }
+      },
+      "casualties": {
+        "death_extractions": 122,
+        "max_reported": 325000,
+        "min_reported": 1,
+        "all_values": [
+          325000,
+          3029,
+          1999,
+          86,
+          84,
+          80,
+          77,
+          72,
+          26,
+          22
+        ]
+      },
+      "displaced": {
+        "extractions": 7,
+        "max_reported": 2600000,
+        "values": [
+          2600000,
+          1400000,
+          500000,
+          300000,
+          12000
+        ]
+      },
+      "damage": {
+        "mentions": 4,
+        "items": [
+          "102,000",
+          "$130 million",
+          "5,200"
+        ]
+      },
+      "relief_funds": {
+        "count": 40,
+        "mentions": [
+          "rs 2026",
+          "$18 million",
+          "USD 1.237 million",
+          "$42 million",
+          "$190,000",
+          "$19.3 million",
+          "$130 million",
+          "$13.5 billion",
+          "$660",
+          "Rs 1000",
+          "Rs. 200",
+          "$12.7 million",
+          "$66.2 million",
+          "Rs 1,000",
+          "Rs 500 crore"
+        ]
+      }
+    },
+    "sentiment": {
+      "headline_count": 859,
+      "headline_polarity_mean": 0.037,
+      "headline_polarity_std": 0.1613,
+      "corpus_polarity_mean": 0.0429,
+      "combined_polarity_mean": 0.0385,
+      "combined_polarity_std": 0.1739,
+      "polarity_min": -1.0,
+      "polarity_max": 1.0,
+      "tone_alarmist": 242,
+      "tone_analytical": 578,
+      "tone_neutral": 39,
+      "tone_alarmist_pct": 28.2,
+      "tone_analytical_pct": 67.3,
+      "most_negative_headlines": [
+        {
+          "title": "Devastating Amphan pics from WB and Odisha",
+          "polarity": -1.0
+        },
+        {
+          "title": "People evacuated as menacing cyclone heads for Bangladesh, India",
+          "polarity": -1.0
+        },
+        {
+          "title": "People evacuated as menacing cyclone heads for Bangladesh, India",
+          "polarity": -1.0
+        },
+        {
+          "title": "India, Bangladesh braced for worst storm for a decade",
+          "polarity": -1.0
+        },
+        {
+          "title": "Un violent CYCLONE dévaste l'Inde et le Bangladesh: au lendemain de son passage,",
+          "polarity": -0.8
+        }
+      ],
+      "most_positive_headlines": [
+        {
+          "title": "Durham Fair canceled for 2020",
+          "polarity": 0.7
+        },
+        {
+          "title": "The latest: Kemp praises 'good people of Gainesville'",
+          "polarity": 0.6
+        },
+        {
+          "title": "MasterClass Announces Emmy Award-Winning “Good Morning America” Co-Anchor Robin ",
+          "polarity": 0.6
+        },
+        {
+          "title": "Iconic Eden Gardens spared from the wrath of Amphan",
+          "polarity": 0.5
+        },
+        {
+          "title": "Boiling frogs and tropical storms 2020-05-22 Read More",
+          "polarity": 0.5
+        }
+      ]
+    },
+    "forgotten_crisis": {
+      "media_count": 859,
+      "population_millions": 0.197,
+      "index": 4360.41,
+      "coverage_classification": "OVER-COVERED"
+    },
+    "vulnerability_benchmark": {
+      "vulnerability": "High",
+      "vulnerability_score": 3,
+      "alert_level": "Red",
+      "alert_score": 3,
+      "coping_capacity": 1,
+      "coping_label": "LOW",
+      "magnitude_kmh": 269,
+      "population_millions": 0.197,
+      "severity_text": "Hurricane/Typhoon > 74 mph (maximum wind speed of 269 km/h)"
+    }
+  },
+  "Event_B_Gezani": {
+    "event_id": 1001256,
+    "event_name": "GEZANI-26",
+    "country": "Madagascar, Mozambique",
+    "period": "Fri, 06 Feb 2026 00:00:00 GMT to Wed, 18 Feb 2026 12:00:00 GMT",
+    "media_count": 120,
+    "corpus_words": 16853,
+    "corpus_sources": {
+      "wikipedia": {
+        "words": 1147,
+        "available": true,
+        "url": "https://en.wikipedia.org/wiki/Cyclone_Gezani"
+      },
+      "reliefweb": {
+        "reports": 10,
+        "words": 1837,
+        "available": true
+      },
+      "article_scrape": {
+        "scraped": 17,
+        "attempted": 30,
+        "failed": 8,
+        "words": 8060,
+        "available": true
+      },
+      "gdacs_media": {
+        "articles": 120,
+        "words": 5809,
+        "available": true
+      }
+    },
+    "response_delta": {
+      "event_onset": "2026-02-06 00:00:00+00:00",
+      "media_peak_date": "2026-02-06",
+      "media_peak_count": 43,
+      "delta_hours": 0.0,
+      "delta_days": null,
+      "daily_article_counts": [
+        [
+          "2026-02-05",
+          32
+        ],
+        [
+          "2026-02-06",
+          43
+        ],
+        [
+          "2026-02-07",
+          17
+        ],
+        [
+          "2026-02-09",
+          2
+        ],
+        [
+          "2026-02-10",
+          6
+        ],
+        [
+          "2026-02-11",
+          6
+        ],
+        [
+          "2026-02-12",
+          1
+        ],
+        [
+          "2026-02-13",
+          3
+        ],
+        [
+          "2026-02-14",
+          3
+        ],
+        [
+          "2026-02-16",
+          3
+        ],
+        [
+          "2026-02-17",
+          2
+        ],
+        [
+          "2026-02-19",
+          1
+        ],
+        [
+          "2026-02-21",
+          1
+        ]
+      ],
+      "total_coverage_days": 13
+    },
+    "ner": {
+      "organisations": {
+        "total_mentions": 59,
+        "unique_orgs": 11,
+        "top_15": [
+          [
+            "BNGRC",
+            11
+          ],
+          [
+            "Indian Army",
+            10
+          ],
+          [
+            "UN",
+            10
+          ],
+          [
+            "Indian Navy",
+            7
+          ],
+          [
+            "WFP",
+            5
+          ],
+          [
+            "EU",
+            5
+          ],
+          [
+            "United Nations",
+            3
+          ],
+          [
+            "JTWC",
+            3
+          ],
+          [
+            "UNICEF",
+            2
+          ],
+          [
+            "OCHA",
+            2
+          ],
+          [
+            "European Union",
+            1
+          ]
+        ]
+      },
+      "government_mentions": {
+        "total": 38,
+        "breakdown": {
+          "Government": 23,
+          "President": 15
+        }
+      },
+      "casualties": {
+        "death_extractions": 4,
+        "max_reported": 63,
+        "min_reported": 4,
+        "all_values": [
+          63,
+          14,
+          8,
+          4
+        ]
+      },
+      "displaced": {
+        "extractions": 0,
+        "max_reported": 0,
+        "values": []
+      },
+      "damage": {
+        "mentions": 1,
+        "items": [
+          "102,000"
+        ]
+      },
+      "relief_funds": {
+        "count": 15,
+        "mentions": [
+          "rs 2026",
+          "USD 1.237 million",
+          "$10,000,",
+          "$12.7 million",
+          "$3 million",
+          "$142 million",
+          "$1.46 million",
+          "$25,000",
+          "$7.5 million",
+          "rs 2026",
+          "USD 67.8 million",
+          "USD 750,000",
+          "$67.8 million",
+          "$2 million",
+          "USD 487,000"
+        ]
+      }
+    },
+    "sentiment": {
+      "headline_count": 120,
+      "headline_polarity_mean": 0.018,
+      "headline_polarity_std": 0.1023,
+      "corpus_polarity_mean": 0.028,
+      "combined_polarity_mean": 0.0251,
+      "combined_polarity_std": 0.1485,
+      "polarity_min": -0.8,
+      "polarity_max": 0.9,
+      "tone_alarmist": 26,
+      "tone_analytical": 90,
+      "tone_neutral": 4,
+      "tone_alarmist_pct": 21.7,
+      "tone_analytical_pct": 75.0,
+      "most_negative_headlines": [
+        {
+          "title": "8 reported dead as Basyang floods Mindanao",
+          "polarity": -0.2
+        },
+        {
+          "title": "Classes suspended across Aklan as Basyang dumps heavy rains",
+          "polarity": -0.2
+        },
+        {
+          "title": "4 dead in Cagayan de Oro City landslide amid Basyang",
+          "polarity": -0.2
+        },
+        {
+          "title": "Basyang death toll: 8 dead due to heavy floods in Mindanao",
+          "polarity": -0.175
+        },
+        {
+          "title": "8 reported dead due to Basyang --OCD",
+          "polarity": -0.1625
+        }
+      ],
+      "most_positive_headlines": [
+        {
+          "title": "Pinellas County Artists selling work to raise money and awareness for their favo",
+          "polarity": 0.5
+        },
+        {
+          "title": "Beloved Jersey Shore nightclub site will soon get a new boardwalk",
+          "polarity": 0.4182
+        },
+        {
+          "title": "News Trendy bargain chain opening over 40 new stores, including in Northeast 1h ",
+          "polarity": 0.3682
+        },
+        {
+          "title": "Orange notification for tropical cyclone 10-20252026-26. Population affected by ",
+          "polarity": 0.25
+        },
+        {
+          "title": "Forest Service enters multi-million dollar agreement supporting WNC Helene recov",
+          "polarity": 0.25
+        }
+      ]
+    },
+    "forgotten_crisis": {
+      "media_count": 120,
+      "population_millions": 1.529,
+      "index": 78.48,
+      "coverage_classification": "UNDER-REPORTED"
+    },
+    "vulnerability_benchmark": {
+      "vulnerability": "High",
+      "vulnerability_score": 3,
+      "alert_level": "Red",
+      "alert_score": 3,
+      "coping_capacity": 1,
+      "coping_label": "LOW",
+      "magnitude_kmh": 211,
+      "population_millions": 1.529,
+      "severity_text": "Post-tropical Depression (maximum wind speed of 211 km/h)"
+    }
+  },
+  "comparative_analysis": {
+    "response_speed": {
+      "delta_a_hours": 90.0,
+      "delta_b_hours": 0.0,
+      "insight": "Response 90h FASTER for Event B (Gezani)"
+    },
+    "forgotten_crisis": {
+      "index_a": 4360.41,
+      "index_b": 78.48,
+      "insight": "Amphan received 55.6x more media coverage per capita. Gezani is relatively UNDER-REPORTED."
+    },
+    "tone_evolution": {
+      "alarmist_pct_a": 28.2,
+      "alarmist_pct_b": 21.7,
+      "analytical_pct_a": 67.3,
+      "analytical_pct_b": 75.0,
+      "insight": "Amphan coverage was MORE ALARMIST (28.2% vs 21.7%)"
+    },
+    "vulnerability": {
+      "coping_a": 1,
+      "coping_b": 1,
+      "insight": "Both regions have similar coping capacity (A=1, B=1). Alert levels: A=Red, B=Red. Magnitudes: A=269km/h, B=211km/h. Despite similar coping capacity, Amphan was stronger — higher magnitude."
+    },
+    "deaths_comparison": {
+      "deaths_a": 325000,
+      "deaths_b": 63
+    },
+    "overall_question": "Is the world responding faster today? Is media focus aligning with vulnerability?",
+    "answer": "Response Delta: A=90.0h, B=0.0h — YES, faster media response. Media alignment: Amphan (FCI=4360.41) was over-covered, Gezani (FCI=78.48) was under-reported. Vulnerability alignment: Poor — low-coping regions still receive less coverage."
+  }
+}

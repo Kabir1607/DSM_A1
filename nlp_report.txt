@@ -1,0 +1,86 @@
+========================================================================
+  DISASTER EVOLUTION & RESPONSE PIPELINE — NLP INTELLIGENCE BRIEF
+  Event A: Cyclone Amphan (2020) — India, Bangladesh
+  Event B: Cyclone Gezani (2026) — Madagascar
+========================================================================
+
+--- TASK 2.1: RESPONSE DELTA ---
+  Event A — System Alert: 2020-05-16 06:00:00+00:00
+            Media Peak:   2020-05-20 (238 articles)
+            Delta_T:      90.0h (3.8 days)
+            Coverage:     13 days
+  Event B — System Alert: 2026-02-06 00:00:00+00:00
+            Media Peak:   2026-02-06 (43 articles)
+            Delta_T:      0.0h (None days)
+            Coverage:     13 days
+  >> Response 90h FASTER for Event B (Gezani)
+
+--- TASK 2.2: NAMED ENTITY RECOGNITION ---
+
+  Event A (Amphan):
+    Organisations: 229 mentions, 19 unique
+    Top: IMD (58), NDRF (52), UN (36), Red Crescent (16), National Disaster Response Force (14), CARE (10), Indian Army (9), United Nations (6)
+    Government:   274 mentions
+    Deaths:       325000 max reported (122 extractions)
+    Death values:  [325000, 3029, 1999, 86, 84]
+    Displaced:    2600000 max
+    Damage:       ['102,000', '$130 million', '5,200']
+    Relief funds: ['rs 2026', '$18 million', 'USD 1.237 million', '$42 million', '$190,000']
+
+  Event B (Gezani):
+    Organisations: 59 mentions, 11 unique
+    Top: BNGRC (11), Indian Army (10), UN (10), Indian Navy (7), WFP (5), EU (5), United Nations (3), JTWC (3)
+    Government:   38 mentions
+    Deaths:       63 max reported (4 extractions)
+    Death values:  [63, 14, 8, 4]
+    Displaced:    0 max
+    Damage:       ['102,000']
+    Relief funds: ['rs 2026', 'USD 1.237 million', '$10,000,', '$12.7 million', '$3 million']
+
+--- TASK 2.3: SENTIMENT VOLATILITY ---
+
+  Event A (Amphan):
+    Headline polarity: mean=0.037, std=0.1613
+    Corpus polarity:   mean=0.0429
+    Range:             [-1.0, 1.0]
+    Tone breakdown:    28.2% alarmist, 67.3% analytical, 4.5% neutral
+    Most negative headline: Devastating Amphan pics from WB and Odisha
+      polarity = -1.0
+
+  Event B (Gezani):
+    Headline polarity: mean=0.018, std=0.1023
+    Corpus polarity:   mean=0.028
+    Range:             [-0.8, 0.9]
+    Tone breakdown:    21.7% alarmist, 75.0% analytical, 3.3% neutral
+    Most negative headline: 8 reported dead as Basyang floods Mindanao
+      polarity = -0.2
+
+  >> Amphan coverage was MORE ALARMIST (28.2% vs 21.7%)
+
+--- TASK 3.1: FORGOTTEN CRISIS INDEX ---
+  Event A: 4360.41 (media=859, pop=0.197M) — OVER-COVERED
+  Event B: 78.48 (media=120, pop=1.529M) — UNDER-REPORTED
+  >> Amphan received 55.6x more media coverage per capita. Gezani is relatively UNDER-REPORTED.
+
+--- TASK 3.2: VULNERABILITY BENCHMARK ---
+
+  Event A (Amphan):
+    Vulnerability: High (score=3)
+    Coping Cap:    LOW (1)
+    Alert Level:   Red (score=3)
+    Magnitude:     269 km/h
+    Population:    0.197M exposed
+
+  Event B (Gezani):
+    Vulnerability: High (score=3)
+    Coping Cap:    LOW (1)
+    Alert Level:   Red (score=3)
+    Magnitude:     211 km/h
+    Population:    1.529M exposed
+
+  >> Both regions have similar coping capacity (A=1, B=1). Alert levels: A=Red, B=Red. Magnitudes: A=269km/h, B=211km/h. Despite similar coping capacity, Amphan was stronger — higher magnitude.
+
+========================================================================
+  KEY FINDING
+========================================================================
+  Response Delta: A=90.0h, B=0.0h — YES, faster media response. Media alignment: Amphan (FCI=4360.41) was over-covered, Gezani (FCI=78.48) was under-reported. Vulnerability alignment: Poor — low-coping regions still receive less coverage.

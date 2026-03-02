@@ -1,0 +1,42 @@
+Disaster Evolution Pipeline — Submission Links & Instructions
+
+=======================================================
+1. GitHub Repository
+=======================================================
+Repository URL: https://github.com/Kabir1607/DSM_A1
+
+Here you will find all the source code, including the heavily
+commented Python scripts (`run_pipeline.py`, `dashboard.py`, etc.).
+
+
+=======================================================
+2. How to Run the NLP Analysis Locally
+=======================================================
+Once downloaded or cloned, you can run the focused 
+comparative analysis for Amphan vs Gezani by typing:
+
+  python nlp_analysis.py
+
+This will instantly re-generate the `nlp_report.txt` and 
+`nlp_results.json` files based on the cached corpus.
+
+
+=======================================================
+3. How to Run the Interactive Dashboard
+=======================================================
+To view the dual-timeline overlay, resilience radar, and 
+sentiment breakdowns, open your terminal in the project 
+directory and run:
+
+  streamlit run dashboard.py
+
+A browser window will open automatically at http://localhost:8501
+giving you access to both the "Overview" and "Comparative" views.
+
+
+=======================================================
+4. Final Deliverables References
+=======================================================
+- Final Report (500 words): See `Final_Report.txt`
+- Clean Dataset: See `disaster_events_dataset.csv` (44 columns)
+- Comparative Brief: See `nlp_report.txt`
